@@ -18,7 +18,7 @@ from django.contrib import admin
 
 # 导入view的函数
 from monitor.views import *
-
+from monitor.taskViews import *
 urlpatterns = {
     url(r'^admin/', admin.site.urls),
     # 配置url, 进行url分发
@@ -27,4 +27,7 @@ urlpatterns = {
     # 直接通过http://localhost:9090/monitor/paramParse/shoujunw的方式传递参数
     url(r'monitor/paramParse/(\w+)$', view=paramParse),
     url(r'monitor/paramJSON', view=paramJSON),
+
+
+    url(r'monitor/saveTask', view=saveTask),
 }

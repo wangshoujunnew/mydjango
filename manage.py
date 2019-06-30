@@ -21,6 +21,7 @@ if __name__ == "__main__":
         raise
     execute_from_command_line(sys.argv)
 
+# pip install django==1.10.3
 # 和manage.py同一级目录执行
 # python manage.py startapp blog
 

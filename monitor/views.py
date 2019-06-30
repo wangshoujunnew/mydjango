@@ -15,6 +15,14 @@ def index(request): # url的分发需要传递一个request对象
 def dbShow(request): # 数据库记录
     logger.info('dbShow run ...')
     all = Task.objects.all()
+
+    task = Task()
+    task.user = 'sjw'
+    task.name = 'hello2'
+    task.active = 1
+    # task.save()
+
+    print(all[0])
     return HttpResponse(','.join(list(map(lambda e:e.name,all))))
 
 def paramParse(request,name):
