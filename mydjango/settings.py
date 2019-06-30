@@ -92,6 +92,13 @@ dev = {
     'PASSWORD': 'ttGo7XmAZ6kJYyrjVbZh',
     'HOST': '10.2.98.73',
 }
+tjlocal = {
+    'ENGINE': 'django.db.backends.mysql',
+    'NAME': 'djiango',
+    'USER': 'root',
+    'PASSWORD': 'wsjia369X',
+    'HOST': 'localhost',
+}
 
 
 DATABASES = {
