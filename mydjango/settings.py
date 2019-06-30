@@ -87,10 +87,10 @@ default = {
 }
 dev = {
     'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'test',
-    'USER': 'root',
-    'PASSWORD': 'root',
-    'HOST': '127.0.0.1',
+    'NAME': 'tj_product_data_bi',
+    'USER': 'bi_rd_data_w',
+    'PASSWORD': 'ttGo7XmAZ6kJYyrjVbZh',
+    'HOST': '10.2.98.73',
 }
 
 
