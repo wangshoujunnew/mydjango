@@ -1,0 +1,62 @@
+2019-06-30 14:14:51,333 - views.py[line:12] - INFO: dbShow run ...
+2019-06-30 14:17:20,946 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse
+Traceback (most recent call last):
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: paramParse() missing 1 required positional argument: 'param'
+2019-06-30 14:17:39,372 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse
+Traceback (most recent call last):
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: paramParse() missing 1 required positional argument: 'param'
+2019-06-30 14:18:00,096 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse
+Traceback (most recent call last):
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: paramParse() missing 1 required positional argument: 'param'
+2019-06-30 14:19:38,237 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse
+Traceback (most recent call last):
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: paramParse() missing 1 required positional argument: 'name'
+2019-06-30 14:19:40,620 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse
+Traceback (most recent call last):
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: paramParse() missing 1 required positional argument: 'name'
+2019-06-30 14:21:36,575 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse/
+Traceback (most recent call last):
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: paramParse() missing 1 required positional argument: 'name'
+2019-06-30 14:24:45,892 - base.py[line:152] - WARNING: Not Found: /monitor/paramParse/
+2019-06-30 14:24:52,860 - base.py[line:152] - WARNING: Not Found: /monitor/paramParse/name=1
+2019-06-30 14:25:02,185 - base.py[line:152] - WARNING: Not Found: /monitor/paramParse/name=shoujunw
+2019-06-30 14:25:07,995 - views.py[line:17] - INFO: shoujunw
+2019-06-30 14:25:51,662 - base.py[line:152] - WARNING: Not Found: /monitor/paramParse/{"name":"shoujunw"}
+2019-06-30 14:28:22,332 - base.py[line:152] - WARNING: Not Found: /monitor/paramJSON
+2019-06-30 14:28:44,354 - views.py[line:22] - INFO: {"name":"shoujunw"}
