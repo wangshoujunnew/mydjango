@@ -7,13 +7,12 @@ class Task(models.Model):
     user = models.CharField(null=False,max_length=32)
     crontab = models.CharField(null=False,max_length=32)
     generateFile = models.CharField(null=False,max_length=32)
-
     active = models.IntegerField(default=0,max_length=2)
 
     @staticmethod
     def init(param): # name,user,active
         task = Task()
-        task.name,task.user,task.active = param
+        task.name,task.user,task.crontab,task.generateFile,task.active = param
         return task
 
 

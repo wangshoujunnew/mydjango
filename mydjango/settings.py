@@ -38,7 +38,30 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'monitor', # 添加监控app到配置中
+    'django_crontab', # 添加定时任务APP
+    # django-crontab可以定时运行自定义命令和函数两种方式
+    # 定时函数----------
+    # CRONJOBS = (
+    #     ('*/1 * * * *', '你的app名.定时函数所在的py文件名.定时函数名'),
+    #     ('0   0 1 * *', '你的app名.定时函数所在的py文件名.定时函数名', '> 输出文件路径和名称'),
+    # )
+    #
+    # 定时命令----------
+    #
+    # CRONJOBS = (
+    #     ('10 12 * * *', 'django.core.management.call_command', ['要执行的命令']),
+    #     ('0   0 * * 0', 'django.core.management.call_command', ['dumpdata', 'auth'], {'indent': 4}, '> /home/john/backups/last_sunday_auth_backup.json')
+    # )
+    # 定时任务的操作
+    # python manage.py crontab add　　添加定时任务
+    # python manage.py crontab remove 清除定时任务
+    # python manage.py crontab show 显示定时任务
 ]
+
+# https://blog.csdn.net/lvluobo/article/details/80979038
+CRONJOBS = (
+    ('*/1 * * * *', 'monitor.crontab.showHello', '>>crontab.log'),
+)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -102,7 +125,7 @@ tjlocal = {
 
 
 DATABASES = {
-    'default': default
+    'default': tjlocal
 }
 # 为所有的model生成数据迁移
 # python manage.py makemigrations app名可选
