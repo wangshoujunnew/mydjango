@@ -120,7 +120,7 @@ tjlocal = {
     'NAME': 'djiango',
     'USER': 'root',
     'PASSWORD': 'wsjia369X',
-    'HOST': 'localhost',
+    'HOST': '10.2.72.13',
 }
 
 

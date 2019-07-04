@@ -1,141 +1,235 @@
-2019-06-30 14:14:51,333 - views.py[line:12] - INFO: dbShow run ...
-2019-06-30 14:17:20,946 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse
+2019-07-04 18:06:04,180 - base.py[line:152] - WARNING: Not Found: /favicon.ico
+2019-07-04 18:07:56,693 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/index
 Traceback (most recent call last):
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
     response = get_response(request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
     response = self.process_exception_by_middleware(e, request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: paramParse() missing 1 required positional argument: 'param'
-2019-06-30 14:17:39,372 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 22, in index
+    need,time = c.comCronNow(crontab)
+  File "D:\new\07_code_project\mydjango\util\crontabUtil.py", line 11, in comCronNow
+    print('str_time_now' + str_time_now)
+TypeError: must be str, not datetime.datetime
+2019-07-04 18:07:56,693 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/index
 Traceback (most recent call last):
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
     response = get_response(request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
     response = self.process_exception_by_middleware(e, request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: paramParse() missing 1 required positional argument: 'param'
-2019-06-30 14:18:00,096 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 22, in index
+    need,time = c.comCronNow(crontab)
+  File "D:\new\07_code_project\mydjango\util\crontabUtil.py", line 11, in comCronNow
+    print('str_time_now' + str_time_now)
+TypeError: must be str, not datetime.datetime
+2019-07-04 18:08:53,438 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/index
 Traceback (most recent call last):
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
     response = get_response(request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
     response = self.process_exception_by_middleware(e, request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: paramParse() missing 1 required positional argument: 'param'
-2019-06-30 14:19:38,237 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse
-Traceback (most recent call last):
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
-    response = get_response(request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
-    response = self.process_exception_by_middleware(e, request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: paramParse() missing 1 required positional argument: 'name'
-2019-06-30 14:19:40,620 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse
-Traceback (most recent call last):
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
-    response = get_response(request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
-    response = self.process_exception_by_middleware(e, request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: paramParse() missing 1 required positional argument: 'name'
-2019-06-30 14:21:36,575 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/paramParse/
-Traceback (most recent call last):
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
-    response = get_response(request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
-    response = self.process_exception_by_middleware(e, request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: paramParse() missing 1 required positional argument: 'name'
-2019-06-30 14:24:45,892 - base.py[line:152] - WARNING: Not Found: /monitor/paramParse/
-2019-06-30 14:24:52,860 - base.py[line:152] - WARNING: Not Found: /monitor/paramParse/name=1
-2019-06-30 14:25:02,185 - base.py[line:152] - WARNING: Not Found: /monitor/paramParse/name=shoujunw
-2019-06-30 14:25:07,995 - views.py[line:17] - INFO: shoujunw
-2019-06-30 14:25:51,662 - base.py[line:152] - WARNING: Not Found: /monitor/paramParse/{"name":"shoujunw"}
-2019-06-30 14:28:22,332 - base.py[line:152] - WARNING: Not Found: /monitor/paramJSON
-2019-06-30 14:28:44,354 - views.py[line:22] - INFO: {"name":"shoujunw"}
-2019-06-30 14:38:45,444 - views.py[line:16] - INFO: dbShow run ...
-2019-06-30 14:38:45,447 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/dbShow
-Traceback (most recent call last):
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
-    response = get_response(request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
-    response = self.process_exception_by_middleware(e, request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\Administrator\01CodeProject\mydjango\monitor\views.py", line 18, in dbShow
-    print(all[0][0])
-TypeError: 'Task' object does not support indexing
-2019-06-30 14:38:59,560 - views.py[line:16] - INFO: dbShow run ...
-2019-06-30 14:41:02,486 - views.py[line:16] - INFO: dbShow run ...
-2019-06-30 14:41:23,685 - views.py[line:16] - INFO: dbShow run ...
-2019-06-30 14:43:08,462 - views.py[line:16] - INFO: dbShow run ...
-2019-06-30 14:43:08,465 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/dbShow
-Traceback (most recent call last):
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
-    response = get_response(request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
-    response = self.process_exception_by_middleware(e, request)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\Administrator\01CodeProject\mydjango\monitor\views.py", line 23, in dbShow
-    task.save()
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\base.py", line 796, in save
-    force_update=force_update, update_fields=update_fields)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\base.py", line 824, in save_base
-    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\base.py", line 889, in _save_table
-    forced_update)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\base.py", line 919, in _do_update
-    filtered = base_qs.filter(pk=pk_val)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\query.py", line 796, in filter
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 26, in index
+    if checkTaskRec(name,time):
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 45, in checkTaskRec
+    for rec in TaskRec.objects.filter(name=name):
+  File "D:\Anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 796, in filter
     return self._filter_or_exclude(False, *args, **kwargs)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\query.py", line 814, in _filter_or_exclude
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 814, in _filter_or_exclude
     clone.query.add_q(Q(*args, **kwargs))
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1227, in add_q
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1227, in add_q
     clause, _ = self._add_q(q_object, self.used_aliases)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1253, in _add_q
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1253, in _add_q
     allow_joins=allow_joins, split_subq=split_subq,
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1187, in build_filter
-    condition = self.build_lookup(lookups, col, value)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1083, in build_lookup
-    return final_lookup(lhs, rhs)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\lookups.py", line 19, in __init__
-    self.rhs = self.get_prep_lookup()
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\lookups.py", line 59, in get_prep_lookup
-    return self.lhs.output_field.get_prep_value(self.rhs)
-  File "H:\o_soft\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 946, in get_prep_value
-    return int(value)
-ValueError: invalid literal for int() with base 10: 'name'
-2019-06-30 14:51:03,200 - taskViews.py[line:16] - ERROR: invalid syntax (<string>, line 1)
-2019-06-30 14:51:03,200 - taskViews.py[line:16] - ERROR: invalid syntax (<string>, line 1)
-2019-06-30 14:51:27,960 - taskViews.py[line:16] - ERROR: invalid syntax (<string>, line 1)
-2019-06-30 14:51:27,960 - taskViews.py[line:16] - ERROR: invalid syntax (<string>, line 1)
-2019-06-30 14:52:10,856 - taskViews.py[line:17] - ERROR: invalid syntax (<string>, line 1)
-2019-06-30 14:52:10,856 - taskViews.py[line:17] - ERROR: invalid syntax (<string>, line 1)
-2019-06-30 14:52:20,089 - taskViews.py[line:17] - ERROR: init() missing 2 required positional arguments: 'user' and 'active'
-2019-06-30 14:52:20,089 - taskViews.py[line:17] - ERROR: init() missing 2 required positional arguments: 'user' and 'active'
-2019-06-30 14:52:48,654 - taskViews.py[line:17] - ERROR: init() missing 2 required positional arguments: 'user' and 'active'
-2019-06-30 14:52:48,654 - taskViews.py[line:17] - ERROR: init() missing 2 required positional arguments: 'user' and 'active'
-2019-06-30 14:52:50,296 - taskViews.py[line:17] - ERROR: init() missing 2 required positional arguments: 'user' and 'active'
-2019-06-30 14:52:50,296 - taskViews.py[line:17] - ERROR: init() missing 2 required positional arguments: 'user' and 'active'
-2019-06-30 14:53:04,816 - taskViews.py[line:18] - ERROR: init() missing 2 required positional arguments: 'user' and 'active'
-2019-06-30 14:53:04,816 - taskViews.py[line:18] - ERROR: init() missing 2 required positional arguments: 'user' and 'active'
-2019-06-30 14:53:58,104 - taskViews.py[line:18] - ERROR: init() takes 0 positional arguments but 1 was given
-2019-06-30 14:53:58,104 - taskViews.py[line:18] - ERROR: init() takes 0 positional arguments but 1 was given
-2019-06-30 14:54:25,986 - taskViews.py[line:18] - ERROR: not enough values to unpack (expected 3, got 1)
-2019-06-30 14:54:25,986 - taskViews.py[line:18] - ERROR: not enough values to unpack (expected 3, got 1)
-2019-06-30 14:54:42,614 - taskViews.py[line:18] - ERROR: tuple index out of range
-2019-06-30 14:54:42,614 - taskViews.py[line:18] - ERROR: tuple index out of range
-2019-06-30 14:54:59,851 - taskViews.py[line:15] - INFO: add task {"name":"ftpTask","user":"shoujunw","active":1}
-2019-06-30 14:54:59,851 - taskViews.py[line:15] - INFO: add task {"name":"ftpTask","user":"shoujunw","active":1}
-2019-06-30 14:55:08,414 - taskViews.py[line:15] - INFO: add task {"name":"ftpTask","user":"shoujunw","active":1}
-2019-06-30 14:55:08,414 - taskViews.py[line:15] - INFO: add task {"name":"ftpTask","user":"shoujunw","active":1}
-2019-07-02 10:51:44,064 - taskViews.py[line:15] - INFO: add task {"name":"hyw_dayreport", "user":"shoujunw", "crontab":"0 10 * * *", "generateFile":"data.res", "active":1 }
-2019-07-02 10:51:44,064 - taskViews.py[line:15] - INFO: add task {"name":"hyw_dayreport", "user":"shoujunw", "crontab":"0 10 * * *", "generateFile":"data.res", "active":1 }
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1133, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1019, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1327, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'name' into field. Choices are: id, lastGeneTime, taskCount, taskName, wc_l
+2019-07-04 18:08:53,438 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/index
+Traceback (most recent call last):
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 26, in index
+    if checkTaskRec(name,time):
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 45, in checkTaskRec
+    for rec in TaskRec.objects.filter(name=name):
+  File "D:\Anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 796, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 814, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1227, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1253, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1133, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1019, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1327, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'name' into field. Choices are: id, lastGeneTime, taskCount, taskName, wc_l
+2019-07-04 18:09:46,409 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/index
+Traceback (most recent call last):
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 27, in index
+    if checkTaskRec(name,time):
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 46, in checkTaskRec
+    for rec in TaskRec.objects.filter(name=name):
+  File "D:\Anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 796, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 814, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1227, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1253, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1133, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1019, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1327, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'name' into field. Choices are: id, lastGeneTime, taskCount, taskName, wc_l
+2019-07-04 18:09:46,409 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/index
+Traceback (most recent call last):
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 27, in index
+    if checkTaskRec(name,time):
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 46, in checkTaskRec
+    for rec in TaskRec.objects.filter(name=name):
+  File "D:\Anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 796, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 814, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1227, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1253, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1133, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1019, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1327, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'name' into field. Choices are: id, lastGeneTime, taskCount, taskName, wc_l
+2019-07-04 18:11:24,307 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/index
+Traceback (most recent call last):
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 27, in index
+    if checkTaskRec(name,time):
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 46, in checkTaskRec
+    for rec in TaskRec.objects.filter(name=name):
+  File "D:\Anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 796, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 814, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1227, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1253, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1133, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1019, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1327, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'name' into field. Choices are: id, lastGeneTime, taskCount, taskName, wc_l
+2019-07-04 18:11:24,307 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/index
+Traceback (most recent call last):
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 27, in index
+    if checkTaskRec(name,time):
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 46, in checkTaskRec
+    for rec in TaskRec.objects.filter(name=name):
+  File "D:\Anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 796, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\query.py", line 814, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1227, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1253, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1133, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1019, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Anaconda3\lib\site-packages\django\db\models\sql\query.py", line 1327, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'name' into field. Choices are: id, lastGeneTime, taskCount, taskName, wc_l
+2019-07-04 18:12:09,988 - views.py[line:30] - WARNING: send Message to User for Warning
+2019-07-04 18:12:09,988 - views.py[line:30] - WARNING: send Message to User for Warning
+2019-07-04 18:12:31,174 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/index
+Traceback (most recent call last):
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 27, in index
+    if checkTaskRec(name,time):
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 51, in checkTaskRec
+    print(rec.name)
+AttributeError: 'TaskRec' object has no attribute 'name'
+2019-07-04 18:12:31,174 - exception.py[line:124] - ERROR: Internal Server Error: /monitor/index
+Traceback (most recent call last):
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 27, in index
+    if checkTaskRec(name,time):
+  File "D:\new\07_code_project\mydjango\monitor\views.py", line 51, in checkTaskRec
+    print(rec.name)
+AttributeError: 'TaskRec' object has no attribute 'name'
+2019-07-04 18:12:58,260 - views.py[line:30] - WARNING: send Message to User for Warning
+2019-07-04 18:12:58,260 - views.py[line:30] - WARNING: send Message to User for Warning
+2019-07-04 18:15:05,443 - views.py[line:30] - WARNING: send Message to User for Warning
+2019-07-04 18:15:05,443 - views.py[line:30] - WARNING: send Message to User for Warning
+2019-07-04 18:15:12,007 - views.py[line:30] - WARNING: send Message to User for Warning
+2019-07-04 18:15:12,007 - views.py[line:30] - WARNING: send Message to User for Warning

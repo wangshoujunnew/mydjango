@@ -22,3 +22,12 @@ class TaskRec(models.Model):
     taskCount = models.IntegerField(default=0,max_length=10) # 这是第几次task
     lastGeneTime = models.CharField(null=False,max_length=32) # task的任务完成时间
     wc_l = models.IntegerField(default=0,max_length=10) # 文件行数
+
+
+# 记录操作
+# insert
+# Author.objects.create(first_name='fe',last_name='cow', email='280773872@qq.com')
+# select
+# Author.objects.filter(last_name='cu_cow')
+# 返回一个对象
+#  author = Author.objects.get(id=1)

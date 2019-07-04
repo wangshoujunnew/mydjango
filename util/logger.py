@@ -1,6 +1,6 @@
 import logging
 from logging.handlers import TimedRotatingFileHandler
-
+# https://www.cnblogs.com/du-jun/p/10556985.html
 def getLooger(path='log'):
     debug = True
     # 日志输出格式
